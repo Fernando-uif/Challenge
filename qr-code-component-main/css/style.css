@@ -1,0 +1,40 @@
+body{
+    min-height: 100vh;
+    background-color: #D4E1EE;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+.container__info{
+    background-color: hsl(0, 0%, 100%);
+    width:300px;
+    height: 471px;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    padding:15px;
+}
+.container__qr{
+    margin-bottom: 10px;
+}
+.container__qr-size{
+    width:300px;
+    border-radius: 10px;
+}
+.container__text-title{
+    font-weight: 700;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+.container__text{
+    text-align: center;
+}
+.container__text-subtitle{
+    font-size:17px;
+    color:hsl(220, 15%, 55%);
+}
